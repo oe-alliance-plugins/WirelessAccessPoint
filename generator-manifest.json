@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "",
+  "description_recipe": "Using a Wireless module as AP.",
+  "history_source_dir": "WirelessAccessPoint",
+  "internal_package_name": "enigma2-plugin-systemplugins-wirelessaccesspoint",
+  "module_dir_name": "WirelessAccessPoint",
+  "output_subdir": "WirelessAccessPoint",
+  "package_name": "enigma2-plugin-systemplugins-wirelessaccesspoint",
+  "plugin_src_rel": "WirelessAccessPoint",
+  "python_package": "WirelessAccessPoint",
+  "rdepends_recipe": "hostapd bridge-utils",
+  "replaces": "",
+  "repo_name": "WirelessAccessPoint",
+  "rrecommends": "",
+  "rreplaces": ""
+}
