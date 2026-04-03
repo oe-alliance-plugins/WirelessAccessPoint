@@ -36,7 +36,7 @@ HOSTAPD_CONF_BACK = "/etc/hostapd.conf.linuxap.back"
 apModeConfig = ConfigSubsection()
 apModeConfig.useap = ConfigYesNo(default=False)
 apModeConfig.setupmode = ConfigSelection(default="simple", choices=[("simple", "Simple"), ("advanced", "Advanced")])
-#apModeConfig.wirelessdevice = fixedValue(value = "")
+# apModeConfig.wirelessdevice = fixedValue(value = "")
 apModeConfig.branch = fixedValue(value="br0")
 apModeConfig.driver = fixedValue(value="nl80211")
 apModeConfig.wirelessmode = ConfigSelection(default="g", choices=[("b", "802.11b"), ("a", "802.11a"), ("g", "802.11g")])
@@ -52,7 +52,7 @@ apModeConfig.encrypt = ConfigYesNo(default=False)
 apModeConfig.method = ConfigSelection(default="0", choices=[
 	("0", _("WEP")), ("1", _("WPA")), ("2", _("WPA2")), ("3", _("WPA/WPA2"))])
 apModeConfig.wep = ConfigYesNo(default=False)
-#apModeConfig.wep_default_key = ConfigSelection(default = "0", choices = [ ("0", "0"), ("1", "1"), ("2", "2"), ("3", "3") ] )
+# apModeConfig.wep_default_key = ConfigSelection(default = "0", choices = [ ("0", "0"), ("1", "1"), ("2", "2"), ("3", "3") ] )
 apModeConfig.wep_default_key = fixedValue(value="0")
 apModeConfig.wepType = ConfigSelection(default="64", choices=[
 	("64", _("Enable 64 bit (Input 10 hex keys)")), ("128", _("Enable 128 bit (Input 26 hex keys)"))])
@@ -206,13 +206,13 @@ class WirelessAccessPoint(ConfigListScreen, Screen):
 		self.hostapdConf["rts_threshold"] = apModeConfig.rts_threshold
 		self.hostapdConf["fragm_threshold"] = apModeConfig.fragm_threshold
 		self.hostapdConf["preamble"] = apModeConfig.preamble
-#		self.hostapdConf["macaddr_acl"] = "" # fix to add Access Control List Editer
-#		self.hostapdConf["accept_mac_file"] = "" # fix to add Access Control List Editer
-#		self.hostapdConf["deny_mac_file"] = "" # fix to add Access Control List Editer
+# self.hostapdConf["macaddr_acl"] = "" # fix to add Access Control List Editer
+# self.hostapdConf["accept_mac_file"] = "" # fix to add Access Control List Editer
+# self.hostapdConf["deny_mac_file"] = "" # fix to add Access Control List Editer
 		self.hostapdConf["ignore_broadcast_ssid"] = apModeConfig.ignore_broadcast_ssid
-#		self.hostapdConf["wmm_enabled"] = ""
-#		self.hostapdConf["ieee80211n"] = ""
-#		self.hostapdConf["ht_capab"] = ""
+# self.hostapdConf["wmm_enabled"] = ""
+# self.hostapdConf["ieee80211n"] = ""
+# self.hostapdConf["ht_capab"] = ""
 		self.hostapdConf["wep_default_key"] = apModeConfig.wep_default_key
 		self.hostapdConf["wep_key0"] = apModeConfig.wep_key0
 		self.hostapdConf["wpa"] = apModeConfig.wpa
@@ -272,7 +272,7 @@ class WirelessAccessPoint(ConfigListScreen, Screen):
 
 	def createConfigEntry(self):
 		global apModeConfig
-#hostap settings
+# hostap settings
 		self.useApEntry = getConfigListEntry(_("Use AP Mode"), apModeConfig.useap)
 		self.setupModeEntry = getConfigListEntry(_("Setup Mode"), apModeConfig.setupmode)
 		self.wirelessDeviceEntry = getConfigListEntry(_("AP Device"), apModeConfig.wirelessdevice)
@@ -328,7 +328,7 @@ class WirelessAccessPoint(ConfigListScreen, Screen):
 					self.configList.append(self.wpaKeyEntry)
 					if apModeConfig.setupmode.value == "advanced":
 						self.configList.append(self.groupRekeyEntry)
-## 		set network interfaces
+# set network interfaces
 			self.configList.append(self.usedhcpEntry)
 			if apModeConfig.usedhcp.value is False:
 				self.configList.append(self.ipEntry)
@@ -842,9 +842,9 @@ class WirelessAccessPoint(ConfigListScreen, Screen):
 						fix_line = "%s=%s\n" % (key, value)
 						break
 
-#			if fix_line is not None:
-#				print "r_line : ", r_line,
-#				print "fix_li : ", fix_line
+# if fix_line is not None:
+# print "r_line : ", r_line,
+# print "fix_li : ", fix_line
 
 			if fix_line is not None:
 				new_conf.write(fix_line)
