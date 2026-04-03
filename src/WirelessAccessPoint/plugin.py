@@ -680,7 +680,7 @@ class WirelessAccessPoint(ConfigListScreen, Screen):
 				(key, value) = line.split("=")
 				key = key.strip()
 				value = value.strip()
-			except:
+			except Exception:
 				continue
 			sysctlList[key] = value
 		sysctlList["net.ipv4.ip_forward"] = str(setValue)
