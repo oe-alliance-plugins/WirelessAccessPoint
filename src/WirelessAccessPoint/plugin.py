@@ -1,15 +1,13 @@
-from __future__ import print_function
 from Screens.Screen import Screen
-from Components.ConfigList import ConfigListScreen, ConfigList
-from Components.config import config, ConfigSubsection, getConfigListEntry, ConfigSelection, ConfigIP, ConfigInteger
-from Components.config import ConfigText, ConfigYesNo, NoSave, ConfigPassword, ConfigNothing, ConfigSequence
+from Components.ConfigList import ConfigListScreen
+from Components.config import ConfigSubsection, getConfigListEntry, ConfigSelection, ConfigIP, ConfigInteger
+from Components.config import ConfigText, ConfigYesNo, ConfigPassword
 from Components.ActionMap import ActionMap
 from Screens.MessageBox import MessageBox
 from Screens.Standby import TryQuitMainloop
 from Components.Sources.StaticText import StaticText
 from Plugins.Plugin import PluginDescriptor
 from Tools.Directories import fileExists
-from math import pow as math_pow
 from Components.Network import iNetwork
 from Components.PluginComponent import plugins
 from Components.Console import Console
@@ -230,7 +228,7 @@ class WirelessAccessPoint(ConfigListScreen, Screen):
 			fp = open('/etc/network/interfaces', 'r')
 			datas = fp.readlines()
 			fp.close()
-		except:
+		except OSError:
 			printDebugMsg("Read failed, /etc/network/interfaces.")
 			return -1
 
@@ -252,7 +250,7 @@ class WirelessAccessPoint(ConfigListScreen, Screen):
 						apModeConfig.gateway.value = map(int, split[1].split('.'))
 					if (split[0] == "dns-nameservers"):
 						apModeConfig.nameserver.value = map(int, split[1].split('.'))
-		except:
+		except Exception:
 			printDebugMsg("Parsing failed, /etc/network/interfaces.")
 			return -1
 
