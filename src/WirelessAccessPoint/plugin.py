@@ -206,13 +206,13 @@ class WirelessAccessPoint(ConfigListScreen, Screen):
 		self.hostapdConf["rts_threshold"] = apModeConfig.rts_threshold
 		self.hostapdConf["fragm_threshold"] = apModeConfig.fragm_threshold
 		self.hostapdConf["preamble"] = apModeConfig.preamble
-# self.hostapdConf["macaddr_acl"] = "" # fix to add Access Control List Editer
-# self.hostapdConf["accept_mac_file"] = "" # fix to add Access Control List Editer
-# self.hostapdConf["deny_mac_file"] = "" # fix to add Access Control List Editer
+#		self.hostapdConf["macaddr_acl"] = "" # fix to add Access Control List Editer
+#		self.hostapdConf["accept_mac_file"] = "" # fix to add Access Control List Editer
+#		self.hostapdConf["deny_mac_file"] = "" # fix to add Access Control List Editer
 		self.hostapdConf["ignore_broadcast_ssid"] = apModeConfig.ignore_broadcast_ssid
-# self.hostapdConf["wmm_enabled"] = ""
-# self.hostapdConf["ieee80211n"] = ""
-# self.hostapdConf["ht_capab"] = ""
+#		self.hostapdConf["wmm_enabled"] = ""
+#		self.hostapdConf["ieee80211n"] = ""
+#		self.hostapdConf["ht_capab"] = ""
 		self.hostapdConf["wep_default_key"] = apModeConfig.wep_default_key
 		self.hostapdConf["wep_key0"] = apModeConfig.wep_key0
 		self.hostapdConf["wpa"] = apModeConfig.wpa
@@ -842,9 +842,9 @@ class WirelessAccessPoint(ConfigListScreen, Screen):
 						fix_line = "%s=%s\n" % (key, value)
 						break
 
-# if fix_line is not None:
-# print "r_line : ", r_line,
-# print "fix_li : ", fix_line
+#			if fix_line is not None:
+#				print "r_line : ", r_line,
+#				print "fix_li : ", fix_line
 
 			if fix_line is not None:
 				new_conf.write(fix_line)
