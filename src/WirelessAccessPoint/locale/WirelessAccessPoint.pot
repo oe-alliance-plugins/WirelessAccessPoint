@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the WirelessAccessPoint package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: WirelessAccessPoint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 14:50+0100\n"
+"POT-Creation-Date: 2026-05-19 16:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,174 +17,231 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../plugin.py:112 ../plugin.py:113
 msgid " "
 msgstr ""
 
+#: ../plugin.py:278
 msgid "AP Device"
 msgstr ""
 
+#: ../plugin.py:279
 msgid "AP Mode"
 msgstr ""
 
+#: ../plugin.py:702
 msgid "Atheros"
 msgstr ""
 
+#: ../plugin.py:282
 msgid "Beacon (15~65535)"
 msgstr ""
 
+#: ../plugin.py:110
 msgid "Cancel"
 msgstr ""
 
+#: ../plugin.py:280
 msgid "Channel (1~13)"
 msgstr ""
 
+#: ../plugin.py:558
 msgid "Configuration your AP is finished"
 msgstr ""
 
+#: ../plugin.py:114
 msgid "Current settings (interface : br0)"
 msgstr ""
 
+#: ../plugin.py:58
 msgid "Enable 128 bit (Input 26 hex keys)"
 msgstr ""
 
+#: ../plugin.py:58
 msgid "Enable 64 bit (Input 10 hex keys)"
 msgstr ""
 
+#: ../plugin.py:288
 msgid "Encrypt"
 msgstr ""
 
+#: ../plugin.py:284
 msgid "FRAGM Threshold (256~2346)"
 msgstr ""
 
+#: ../plugin.py:117 ../plugin.py:298
 msgid "Gateway"
 msgstr ""
 
+#: ../plugin.py:293
 msgid "Group Rekey Interval"
 msgstr ""
 
+#: ../plugin.py:115 ../plugin.py:296
 msgid "IP Address"
 msgstr ""
 
+#: ../plugin.py:286
 msgid "Ignore Broadcast SSID"
 msgstr ""
 
+#: ../plugin.py:475
 msgid "Invalid Fragm Threshold\n"
 msgstr ""
 
+#: ../plugin.py:472
 msgid "Invalid RTS Threshold\n"
 msgstr ""
 
+#: ../plugin.py:463
 msgid "Invalid SSID\n"
 msgstr ""
 
+#: ../plugin.py:437
 msgid ""
 "Invalid WEP key\n"
 "\n"
 msgstr ""
 
+#: ../plugin.py:442
 msgid ""
 "Invalid WPA key\n"
 "\n"
 msgstr ""
 
+#: ../plugin.py:469
 msgid "Invalid beacon\n"
 msgstr ""
 
+#: ../plugin.py:466
 msgid "Invalid channel\n"
 msgstr ""
 
+#: ../plugin.py:478
 msgid "Invalid wpagrouprekey\n"
 msgstr ""
 
+#: ../plugin.py:292
 msgid "KEY (8~63 Characters)"
 msgstr ""
 
+#: ../plugin.py:290
 msgid "KeyType"
 msgstr ""
 
+#: ../plugin.py:289
 msgid "Method"
 msgstr ""
 
+#: ../plugin.py:118 ../plugin.py:119 ../plugin.py:120
 msgid "N/A"
 msgstr ""
 
+#: ../plugin.py:299
 msgid "Nameserver"
 msgstr ""
 
+#: ../plugin.py:297
 msgid "NetMask"
 msgstr ""
 
+#: ../plugin.py:116
 msgid "Netmask"
 msgstr ""
 
+#: ../plugin.py:111
 msgid "Ok"
 msgstr ""
 
+#: ../plugin.py:426
 msgid "Please wait for AP Configuration....\n"
 msgstr ""
 
+#: ../plugin.py:285
 msgid "Preamble"
 msgstr ""
 
+#: ../plugin.py:283
 msgid "RTS Threshold (0~2347)"
 msgstr ""
 
+#: ../plugin.py:706 ../plugin.py:708
 msgid "Ralink"
 msgstr ""
 
+#: ../plugin.py:700
 msgid "Realtek"
 msgstr ""
 
+#: ../plugin.py:281
 msgid "SSID (1~32 Characters)"
 msgstr ""
 
+#: ../plugin.py:277
 msgid "Setup Mode"
 msgstr ""
 
+#: ../plugin.py:712 ../plugin.py:714
 msgid "Unknown network adapter"
 msgstr ""
 
+#: ../plugin.py:276
 msgid "Use AP Mode"
 msgstr ""
 
+#: ../plugin.py:295
 msgid "Use DHCP"
 msgstr ""
 
+#: ../plugin.py:864
 msgid "Using a Wireless module as access point."
 msgstr ""
 
+#: ../plugin.py:53
 msgid "WEP"
 msgstr ""
 
+#: ../plugin.py:291
 msgid "WEP Key (HEX)"
 msgstr ""
 
+#: ../plugin.py:710
 msgid "WLAN adapter"
 msgstr ""
 
+#: ../plugin.py:700 ../plugin.py:702 ../plugin.py:704 ../plugin.py:706
+#: ../plugin.py:708
 msgid "WLAN adapter."
 msgstr ""
 
+#: ../plugin.py:53 ../plugin.py:61
 msgid "WPA"
 msgstr ""
 
+#: ../plugin.py:53 ../plugin.py:61
 msgid "WPA/WPA2"
 msgstr ""
 
+#: ../plugin.py:53 ../plugin.py:61
 msgid "WPA2"
 msgstr ""
 
+#: ../plugin.py:864
 msgid "Wireless Access Point"
 msgstr ""
 
+#: ../plugin.py:704
 msgid "Zydas"
 msgstr ""
 
+#: ../plugin.py:49
 msgid "disabled"
 msgstr ""
 
+#: ../plugin.py:49
 msgid "enabled"
 msgstr ""
 
+#: ../plugin.py:61
 msgid "not set"
 msgstr ""

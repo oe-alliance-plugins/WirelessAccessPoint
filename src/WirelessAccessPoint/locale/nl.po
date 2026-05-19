@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2-oe-alliance-plugins 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-30 19:14+0200\n"
+"POT-Creation-Date: 2026-05-19 16:49+0200\n"
 "PO-Revision-Date: 2018-07-31 10:48+0200\n"
 "Last-Translator: Rob van der Does <RobvanderDoes@Gmail.com>\n"
 "Language-Team: none\n"
@@ -20,66 +20,87 @@ msgstr ""
 "X-Generator: Poedit 2.1.1\n"
 "X-Poedit-SearchPath-0: ..\n"
 
+#: ../plugin.py:112 ../plugin.py:113
 msgid " "
 msgstr " "
 
+#: ../plugin.py:278
 msgid "AP Device"
 msgstr "AP Device"
 
+#: ../plugin.py:279
 msgid "AP Mode"
 msgstr "AP Mode"
 
+#: ../plugin.py:702
 msgid "Atheros"
 msgstr "Atheros"
 
+#: ../plugin.py:282
 msgid "Beacon (15~65535)"
 msgstr "Beacon (15~65535)"
 
+#: ../plugin.py:110
 msgid "Cancel"
 msgstr "Annuleer"
 
+#: ../plugin.py:280
 msgid "Channel (1~13)"
 msgstr "Kanaal (1~13)"
 
+#: ../plugin.py:558
 msgid "Configuration your AP is finished"
 msgstr "Configureren van uw AP is gereed"
 
+#: ../plugin.py:114
 msgid "Current settings (interface : br0)"
 msgstr "Huidige instellingen (interface : br0)"
 
+#: ../plugin.py:58
 msgid "Enable 128 bit (Input 26 hex keys)"
 msgstr "Schakel 128 bit in (invoer 26 hex keys)"
 
+#: ../plugin.py:58
 msgid "Enable 64 bit (Input 10 hex keys)"
 msgstr "Schakel 64 bit in (invoer 10 hex keys)"
 
+#: ../plugin.py:288
 msgid "Encrypt"
 msgstr "Codeer"
 
+#: ../plugin.py:284
 msgid "FRAGM Threshold (256~2346)"
 msgstr "FRAGM drempelwaarde (256~2346)"
 
+#: ../plugin.py:117 ../plugin.py:298
 msgid "Gateway"
 msgstr "Gateway"
 
+#: ../plugin.py:293
 msgid "Group Rekey Interval"
 msgstr "Group Rekey Interval"
 
+#: ../plugin.py:115 ../plugin.py:296
 msgid "IP Address"
 msgstr "IP-adres"
 
+#: ../plugin.py:286
 msgid "Ignore Broadcast SSID"
 msgstr "Negeer omroep SSID"
 
+#: ../plugin.py:475
 msgid "Invalid Fragm Threshold\n"
 msgstr "Ongeldige Fragm drempelwaarde\n"
 
+#: ../plugin.py:472
 msgid "Invalid RTS Threshold\n"
 msgstr "Ongeldige RTS drempelwaarde\n"
 
+#: ../plugin.py:463
 msgid "Invalid SSID\n"
 msgstr "Ongeldige SSID\n"
 
+#: ../plugin.py:437
 msgid ""
 "Invalid WEP key\n"
 "\n"
@@ -87,6 +108,7 @@ msgstr ""
 "Ongeldige WEP key\n"
 "\n"
 
+#: ../plugin.py:442
 msgid ""
 "Invalid WPA key\n"
 "\n"
@@ -94,104 +116,139 @@ msgstr ""
 "Ongeldige WPA key\n"
 "\n"
 
+#: ../plugin.py:469
 msgid "Invalid beacon\n"
 msgstr "Ongeldig beacon\n"
 
+#: ../plugin.py:466
 msgid "Invalid channel\n"
 msgstr "Ongeldig kanaal\n"
 
+#: ../plugin.py:478
 msgid "Invalid wpagrouprekey\n"
 msgstr "Ongeldige wpagrouprekey\n"
 
+#: ../plugin.py:292
 msgid "KEY (8~63 Characters)"
 msgstr "KEY (8~63 karakters)"
 
+#: ../plugin.py:290
 msgid "KeyType"
 msgstr "KeyType"
 
+#: ../plugin.py:289
 msgid "Method"
 msgstr "Methode"
 
+#: ../plugin.py:118 ../plugin.py:119 ../plugin.py:120
 msgid "N/A"
 msgstr "NVT"
 
+#: ../plugin.py:299
 msgid "Nameserver"
 msgstr "Nameserver"
 
+#: ../plugin.py:297
 msgid "NetMask"
 msgstr "NetMask"
 
+#: ../plugin.py:116
 msgid "Netmask"
 msgstr "Netmask"
 
+#: ../plugin.py:111
 msgid "Ok"
 msgstr "OK"
 
+#: ../plugin.py:426
 msgid "Please wait for AP Configuration....\n"
 msgstr "Wacht op de AP configuratie...\n"
 
+#: ../plugin.py:285
 msgid "Preamble"
 msgstr "Preamble"
 
+#: ../plugin.py:283
 msgid "RTS Threshold (0~2347)"
 msgstr "RTS drempelwaarde (0~2347)"
 
+#: ../plugin.py:706 ../plugin.py:708
 msgid "Ralink"
 msgstr "Ralink"
 
+#: ../plugin.py:700
 msgid "Realtek"
 msgstr "Realtek"
 
+#: ../plugin.py:281
 msgid "SSID (1~32 Characters)"
 msgstr "SSID (1~32 Karakters)"
 
+#: ../plugin.py:277
 msgid "Setup Mode"
 msgstr "Instellingsmode"
 
+#: ../plugin.py:712 ../plugin.py:714
 msgid "Unknown network adapter"
 msgstr "Onbekende netwerkadapter"
 
+#: ../plugin.py:276
 msgid "Use AP Mode"
 msgstr "Gebruik AP modus"
 
+#: ../plugin.py:295
 msgid "Use DHCP"
 msgstr "Gebruik DHCP"
 
+#: ../plugin.py:864
 msgid "Using a Wireless module as access point."
 msgstr "Gebruik een draadloze module als access point."
 
+#: ../plugin.py:53
 msgid "WEP"
 msgstr "WEP"
 
+#: ../plugin.py:291
 msgid "WEP Key (HEX)"
 msgstr "WEP Key (HEX)"
 
+#: ../plugin.py:710
 msgid "WLAN adapter"
 msgstr "WLAN adapter"
 
+#: ../plugin.py:700 ../plugin.py:702 ../plugin.py:704 ../plugin.py:706
+#: ../plugin.py:708
 msgid "WLAN adapter."
 msgstr "WLAN adapter."
 
+#: ../plugin.py:53 ../plugin.py:61
 msgid "WPA"
 msgstr "WPA"
 
+#: ../plugin.py:53 ../plugin.py:61
 msgid "WPA/WPA2"
 msgstr "WPA/WPA2"
 
+#: ../plugin.py:53 ../plugin.py:61
 msgid "WPA2"
 msgstr "WPA2"
 
+#: ../plugin.py:864
 msgid "Wireless Access Point"
 msgstr "Wireless Access Point"
 
+#: ../plugin.py:704
 msgid "Zydas"
 msgstr "Zydas"
 
+#: ../plugin.py:49
 msgid "disabled"
 msgstr "uitgeschakeld"
 
+#: ../plugin.py:49
 msgid "enabled"
 msgstr "ingeschakeld"
 
+#: ../plugin.py:61
 msgid "not set"
 msgstr "niet ingesteld"
