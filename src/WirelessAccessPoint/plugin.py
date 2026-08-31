@@ -167,7 +167,7 @@ class WirelessAccessPoint(ConfigListScreen, Screen):
 
 	def checkRunHostapd(self):
 		global apModeConfig
-		if fileExists("/var/run/hostapd", 0):
+		if fileExists("/var/run/hostapd", "f"):
 			apModeConfig.useap.value = True
 
 	def checkWirelessDevices(self):
